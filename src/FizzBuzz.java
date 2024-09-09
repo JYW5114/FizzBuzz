@@ -9,11 +9,11 @@ class FizzBuzz {
         //for (int i = 1; i < 100; i++) {
 
             // Find out which numbers divide i.
-            doFizzBuss(i);
+            doFizzBuzz(i);
         }
     }
 
-    private static void doFizzBuss(int i) {
+    public static void doFizzBuzz(int i) {
         boolean divisibleBy3 = i % 3 == 0;
         boolean divisibleBy5 = i % 5 == 0;
 
